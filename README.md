@@ -4,7 +4,7 @@
 
 1. ### jenkins
 
-   版本：[2.60.3]()
+   版本：[2.60.3](https://github.com/Dux-King/jenkins/blob/master/mvn_git_jdk8_docker/2.60.3/Dockerfile)
 
    工作目录：/var/jenkins_home
 
