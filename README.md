@@ -45,3 +45,11 @@ docker run -d -p 18587:8080 -v /root/jenkins_home:/var/jenkins_home -v /var/run/
 ## 四、问题
 
 如果挂载目录出现权限问题使用chmod 777 /jenkins_home
+
+# **jenkins:2.102**
+## 一、使用说明
+目录：/jenkins
+
+启动命令：
+
+docker run -d -p 18587:8080 -v /root/jenkins_home:/jenkins -v /var/run/docker.sock:/var/run/docker.sock --name jenkins jenkins:2.102
